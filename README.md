@@ -6,5 +6,5 @@ Replicate the ZURI website frontend
             href="https://github.com/whitesotx"
             target="_blank"
             rel="noopener noreferrer"
-            >@Ola White</a
+            >© Copyright 2022. @Ola White</a
           >
