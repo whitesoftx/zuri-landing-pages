@@ -1,0 +1,125 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.top-nav {
+  color: #283593;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button-div {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: #283593;
+  font-size: 14px;
+  /* font-weight: 400; */
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  color: #283593;
+  text-decoration: none;
+}
+
+hr {
+  border-top: #8f8487;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong {
+  color: #283593;
+}
+
+.about-div {
+  width: 75%;
+  margin: 0 auto;
+  text-align: justify;
+  background-color: #fafafa;
+  border: 1px solid #dde4f3;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.contact-form-table {
+  width: 90%;
+  text-align: justify;
+  background-color: #fafafa;
+  border: 1px solid #dde4f3;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.footer-nav {
+  color: #673ab7;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-home {
+  background-color: #283593;
+  color: white;
+  font-size: 18px;
+  border: #283593;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 70px;
+  width: 230px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-button {
+  background-color: #283593;
+  color: white;
+  font-size: 18px;
+  border: #283593;
+  cursor: pointer;
+  height: 40px;
+  width: 110px;
+  border-radius: 4px;
+}
+input,
+select {
+  border: 1px solid #cedaf2;
+  background-color: #ffffff;
+  height: 28px;
+  width: 235px;
+  border-radius: 4px;
+}
+
+textarea {
+  border: 1px solid #cedaf2;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
