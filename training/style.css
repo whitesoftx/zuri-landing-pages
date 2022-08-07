@@ -77,6 +77,12 @@ body {
   color: var(--color-semi-black);
   font-family: var(--font-family-two);
 }
+
+.menu li a {
+  color: var(--color-semi-black);
+}
+
+
 .menu ul span {
   /* display: inline-block; */
   list-style: none;
