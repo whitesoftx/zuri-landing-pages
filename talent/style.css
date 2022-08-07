@@ -44,7 +44,6 @@ body {
   position: -webkit-sticky; /* Safari */
   background-color: var(--page-background);
   position: sticky;
-  /* padding: 10px; */
   top: 0;
   z-index: 9999;
 }
@@ -146,6 +145,10 @@ p {
   margin-right: 10px;
 }
 
+.section-1_buttons_red:hover {
+  box-shadow: 0px 2px 2px 2px #6d6d7059;
+}
+
 .section-1_buttons_brown {
   width: 200px;
   height: 40px;
@@ -156,6 +159,10 @@ p {
   font-size: 1rem;
   font-family: var(--font-family-two);
   cursor: pointer;
+}
+
+.section-1_buttons_brown:hover {
+  box-shadow: 0px 2px 2px 2px #6d6d7059;
 }
 
 .section-1_right {
@@ -264,6 +271,14 @@ p {
   margin-right: 20px;
 }
 
+.section-3_buttons:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px) !important;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
 .section-4 {
   max-width: 100%;
   margin: auto;
@@ -308,7 +323,6 @@ p {
   background-color: #161617;
   color: #ffffff;
 }
-
 
 .section-5_section {
   max-width: 1440px;
