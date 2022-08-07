@@ -297,12 +297,18 @@ p {
 .section-4_card {
   background-color: #ffffff;
   border: 1px solid #fff8e5;
-  border-radius: 10px;
+  border-radius: 0 0 20px 0;
   height: 300px;
   padding: 50px;
   text-align: center;
   width: 500px;
 }
+
+.section-4_card:hover {
+  background-color: #161617;
+  color: #ffffff;
+}
+
 
 .section-5_section {
   max-width: 1440px;
