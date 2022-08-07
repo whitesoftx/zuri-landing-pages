@@ -44,7 +44,6 @@ body {
   position: -webkit-sticky; /* Safari */
   background-color: var(--page-background);
   position: sticky;
-  /* padding: 10px; */
   top: 0;
   z-index: 9999;
 }
@@ -77,12 +76,6 @@ body {
   color: var(--color-semi-black);
   font-family: var(--font-family-two);
 }
-
-.menu li a {
-  color: var(--color-semi-black);
-}
-
-
 .menu ul span {
   /* display: inline-block; */
   list-style: none;
@@ -96,6 +89,10 @@ body {
 
 .menu a {
   text-decoration: none;
+}
+
+.menu li a {
+  color: var(--color-semi-black);
 }
 
 .enrol-styling {
@@ -328,6 +325,14 @@ hr {
   padding-bottom: 30px;
 }
 
+.table-div_left:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px) !important;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
 .table-div_others_1 {
   border: 1px solid #fff4f0;
   border-radius: 20px;
@@ -339,6 +344,14 @@ hr {
   background-position: right top;
   background-color: #ffffff;
   box-shadow: 15px 15px 15px 15px #fff4f0;
+}
+
+.table-div_others_1:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px) !important;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .table-div_others_1 h1 {
@@ -365,6 +378,14 @@ hr {
   box-shadow: 15px 15px 15px 15px #fff4f0;
 }
 
+.table-div_others_2:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px) !important;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
 .table-div_others_2 h1 {
   font-size: 4rem;
   padding-bottom: 30px;
@@ -387,6 +408,14 @@ hr {
   background-position: right top;
   background-color: #ffffff;
   box-shadow: 15px 15px 15px 15px #fff4f0;
+}
+
+.table-div_others_3:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px) !important;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .table-div_others_3 h1 {
@@ -413,6 +442,14 @@ hr {
   box-shadow: 15px 15px 15px 15px #fff4f0;
 }
 
+.table-div_others_4:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px) !important;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
 .table-div_others_4 h1 {
   font-size: 4rem;
   padding-bottom: 30px;
@@ -435,6 +472,14 @@ hr {
   background-position: right top;
   background-color: #ffffff;
   box-shadow: 15px 15px 15px 15px #fff4f0;
+}
+
+.table-div_others_5:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px) !important;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .table-div_others_5 h1 {
@@ -933,7 +978,6 @@ hr {
 }
 
 @media (max-width: 1280px) {
-
   .main-page {
     max-width: 94vw;
   }
@@ -980,5 +1024,4 @@ hr {
     background-position: center center;
     background-size: 75%;
   }
-
-
+}
