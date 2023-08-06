@@ -515,8 +515,6 @@ hr {
 
 .mid_body_one_left {
   width: 40%;
-  /* height: 100%; */
-  /* padding: 0px 10px 10px 150px; */
   color: #ffffff;
 }
 
@@ -576,7 +574,7 @@ hr {
 
 .rounded_divs_button {
   display: flex;
-  width: 40%;
+  width: 50%;
   height: 65px;
   border: #ffffff 2px solid;
   border-radius: 70px !important;
@@ -601,11 +599,6 @@ hr {
   margin-bottom: 20px;
   align-items: center;
   justify-content: left;
-
-  /* margin: 100px 0px 0px 0px; */
-
-  /* justify-content: space-between; */
-  /* padding-left: 150px; */
 }
 
 .section-3-arrow {
@@ -977,9 +970,10 @@ hr {
   color: #1b1a20;
 }
 
-@media (max-width: 1280px) {
-  .main-page {
-    max-width: 94vw;
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust the base font size for better readability on mobile */
   }
 
   .section-4-tables {
@@ -999,29 +993,255 @@ hr {
     margin: 20px 0px 30px 0px;
   }
 
+  .main-page {
+    padding: 10px;
+  }
+
+  .main-page-div {
+    padding: 10px;
+    width: 90vw;
+  }
+
+  .menu,
+  .enrol-styling {
+    display: none;
+  }
+
+  .body-top {
+    flex-direction: row;
+  }
+
+  .body-top-left,
+  .body-top-center,
+  .body-top-right {
+    width: 98vw;
+  }
+
+  .body-top-center h1 {
+    font-size: 22px;
+    padding-top: 10px;
+  }
+
+  .body-intro {
+    padding: 20px;
+  }
+
+  .body-powered {
+    width: 90vw;
+    flex-direction: column;
+  }
+
+  .body-powered_left,
+  .body-powered_center,
+  .body-powered_right {
+    width: 100%;
+  }
+
+  .body-powered_center {
+    text-align: center;
+  }
+  .body-powered_left {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .body-powered_left h2 {
+    text-align: center;
+  }
+
+  .body-powered_center {
+    display: none;
+  }
+
+  .body-powered_right p {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .body-section-wire {
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  .why-zuri-training {
+    flex-direction: column;
+  }
+  .why-zuri-training-left,
+  .why-zuri-training-right {
+    width: 90vw;
+  }
+
+  .why-zuri-training-left {
+    padding-right: 1px;
+  }
+
+  .why-zuri-training-left h2 {
+    font-size: 20px;
+  }
+
+  .table-div {
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  .table-div_left,
+  .table-div_others_1,
+  .table-div_others_2,
+  .table-div_others_3,
+  .table-div_others_4,
+  .table-div_others_5 {
+    width: 85vw;
+    margin-bottom: 20px;
+  }
+
+  .mid_body_div {
+    flex-direction: column;
+  }
+
   .mid_body_div {
     width: 94vw;
     margin: auto;
-    background: url("./images/dotsection5.svg");
+    background: url("./images/dotsection_.svg");
     background-repeat: no-repeat;
     background-position: 40px 800px;
     background-color: var(--color-red);
     height: 980px;
   }
-
-  .mid_body_one_left {
-    width: 50%;
-    /* height: 100%; */
-    padding: 0px 10px 10px 75px;
-    color: #ffffff;
+  .mid_body_one {
+    flex-direction: column;
   }
 
   .mid_body_one_right {
-    width: 50%;
-
+    width: 99vw;
     background: url("./images/section5-image.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 75%;
+  }
+
+  .mid_body_one_left {
+    width: 99vw;
+  }
+
+  .enrol-button-white {
+    margin-left: 25px;
+  }
+  .mid_body_one_left h1 {
+    font-size: 1.8rem;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    padding: 5px 25px;
+  }
+  .mid_body_one_left p {
+    padding: 5px 25px;
+  }
+  .mid_body_one_left_p {
+    padding-right: 20px;
+    margin-bottom: 35px;
+    padding: 5px 25px;
+  }
+  .enrol-button-white {
+    margin-bottom: 10px;
+  }
+
+  .rounded_divs_button {
+    width: 75%;
+  }
+
+  .rounded_divs_table,
+  .rounded_divs_table2 {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    gap: 10px;
+  }
+
+  .section-3 {
+    width: 95vw;
+  }
+
+  .section-3 p {
+    text-align: center;
+  }
+
+  .section-3 h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .section-4 {
+    flex-direction: column;
+    width: 85vw;
+  }
+  .section-4-tables {
+    width: 80vw;
+    box-shadow: 2px 5px 0px 3px #fff4f0;
+    text-align: center;
+  }
+
+  .section-7-heading {
+    text-align: center;
+  }
+
+  .section-5 {
+    margin-top: 10px;
+  }
+
+  .section-9 {
+    flex-direction: column;
+  }
+  .section-10-heading span {
+    text-align: center;
+    padding: 5px 20px;
+  }
+  .section-11 {
+    flex-direction: column;
+    width: 90vw;
+  }
+  .section-11_left,
+  .section-11_right {
+    width: auto;
+  }
+
+  .section-12 {
+    flex-direction: column;
+    margin-top: 170px;
+    width: 80vw;
+  }
+  .center-div {
+    height: auto;
+    width: 85vw;
+  }
+
+  .center-div-content h1 {
+    font-size: 2rem;
+  }
+  .footer-div {
+    flex-direction: column;
+  }
+  .footer-div-left {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-div-left span {
+    text-align: center;
+    display: none;
+  }
+
+  .footer-div-right {
+    width: 80vw;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .body-section-wire img {
+    display: none;
+  }
+
+  .section-7 {
+    width: 85vw;
   }
 }
